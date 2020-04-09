@@ -24,7 +24,7 @@ function updateDrange() {
     } else if (drange === "All") {
       mindate.setFullYear(2000, 3, 5); 
     } else if (drange === "YTD") {
-      mindate.setFullYear(today.getFullYear(),0,0)
+      mindate.setFullYear(today.getFullYear(),0,1)
     } else if (drange === "LastCal") {
       mindate.setFullYear(today.getFullYear()-1,0,0)
       today.setFullYear(today.getFullYear()-1,11,30)
