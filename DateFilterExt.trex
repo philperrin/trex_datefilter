@@ -7,7 +7,7 @@
     <author name="Phil Perrin" email="info@philperrin.com" organization="Phil Perrin Consulting, LLC" website="https://philperrin.com"/>
     <min-api-version>0.9</min-api-version>
     <source-location>
-      <url>https://github.com/philperrin/trex_datefilter/</url>
+      <url>https://philperrin.github.io/trex_datefilter/</url>
     </source-location>
     <icon></icon>
   </dashboard-extension>
