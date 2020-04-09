@@ -22,7 +22,7 @@ function updateDrange() {
     } else if (drange === "Week") {
       mindate.setDate(today.getDate() - 7);
     } else if (drange === "All") {
-      mindate.setFullYear(2000, 3, 5); 
+      mindate.setFullYear(2000, 0, 3); 
     } else if (drange === "YTD") {
       mindate.setFullYear(today.getFullYear(),0,1)
     } else if (drange === "LastCal") {
