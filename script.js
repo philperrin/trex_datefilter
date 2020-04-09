@@ -26,8 +26,8 @@ function updateDrange() {
     } else if (drange === "YTD") {
       mindate.setFullYear(today.getFullYear(),0,1)
     } else if (drange === "LastCal") {
-      mindate.setFullYear(today.getFullYear()-1,0,0)
-      today.setFullYear(today.getFullYear()-1,11,30)
+      mindate.setFullYear(today.getFullYear()-1,0,1)
+      today.setFullYear(today.getFullYear()-1,11,31)
     }
 //I cheated a little here, since I know the min date - clearing the filter would be better for the "All" - Keisha has a good solution, but maybe a little too robust
 //I'll ponder on an easy way to clear the date filter... pull in the min date from the field?
